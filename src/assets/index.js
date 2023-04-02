@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import vuejs from "./tech/vuejs.png";
+import pinia from "./tech/pinia.svg";
+import nestjs from "./tech/nestjs.svg";
+
+import webflow from "./tech/webflow.png";
 export {
   logo,
   backend,
@@ -59,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  vuejs,
+  pinia,
+  nestjs,
+  webflow,
 };

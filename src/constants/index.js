@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  webflow,
 } from "../assets";
 
 export const navLinks = [
@@ -46,16 +47,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Frontend Developer",
+    icon: reactjs,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Webflow Developer",
+    icon: webflow,
   },
 ];
 

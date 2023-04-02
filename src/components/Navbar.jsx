@@ -42,10 +42,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Liron &nbsp;
-            <span className="sm:block hidden"> | 3D Portfolio</span>
+          <img src={logo} alt="logo" className="w-10 h-10 object-contain" />
+          <p className="text-white text-[18px] font-bold cursor-pointer flex m-0">
+            Ali Raza Khan &nbsp;
+            <span className="sm:block hidden"> | &nbsp; Portfolio</span>
           </p>
         </Link>
 
@@ -55,7 +55,7 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-white transition transform hover:-translate-y-1 text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
